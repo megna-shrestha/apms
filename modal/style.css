@@ -1,0 +1,141 @@
+:root {
+    --text: #101828;
+    --white: #ffffff;
+    --gray:#E4E7EC;
+    --gray-text:#6F8A9E;
+  }
+  @media only screen and (min-width: 768px){
+
+
+
+.view-role{
+    width: 650px;
+    height: 730px  ;
+    background-color: rgb(255, 255, 255);
+    margin-left: 250px;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.header{
+    display: flex;
+    gap: 510px;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+}
+.line{
+    background-color:var(--gray);
+    height: 1px;
+}
+
+h6{
+font-weight: 600;
+color: var(--text);
+padding-top: 8px;
+}
+
+.icon{
+    height:20px;
+    width: 20px;
+    padding-top: 4px;
+}
+
+.rolename{
+    display: flex;
+    gap: 280px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.main{
+    font-size: 12px;
+    position: relative !important;
+}
+.green{
+    height: 30px;
+    width: 70px;
+font-size: 12px;
+background-color: #E7F7EF !important   ;
+color: #0CAF60 !important;
+margin-top: -16px;
+}
+#subtext{
+    position: relative;
+    font-size: 16px;
+  margin-top: -10px;
+}
+
+.desc{
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-right: 36px;
+    
+}
+
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 16px; /* Adds space between cells */
+    padding-left:20px;
+    padding-top: 16px;
+   color: var(--gray-text);
+    font-size: 12px;
+}
+td {
+   
+    border-radius: 24px;
+width:148px;
+height: 32px;
+text-align: center;
+color: var(--gray-text);
+
+   
+   
+}
+
+th{
+    
+    border-radius: 24px;
+    width:80px;
+    height: 32px;
+    font-weight: 600;
+    color: var(--text);
+   
+   
+}
+.buttons{
+    padding-left: 490px;
+    padding-top: 24px;
+}
+.normal, .btn-primary{
+    border-radius: 24px !important;
+    font-size: 12px;
+    width:64px;
+    height: 36px;
+}
+
+.btn-primary{
+    background-color: #526ED3 !important;
+    color: var(--white);
+}
+
+.active{
+    background-color: #e7ecff;
+    color: #526ED3;
+}
+
+}
+
+
+
+
+
+
+
+ 
