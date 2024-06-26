@@ -1,0 +1,77 @@
+:root {
+    --text: #101828;
+    --white: #ffffff;
+    --gray:#E4E7EC;
+    --gray-text:#6F8A9E;
+  }
+  @media only screen and (min-width: 768px){
+    
+    body{
+        font-family: "Roboto", sans-serif;
+        
+    }
+.main{
+  background-color: var(--white);
+  height: 440px;
+  width: 800px;
+
+  margin-left: 170px;
+  margin-top: 40px;
+  border-radius: 16px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+    .user-details{
+      display: flex;
+     
+
+    }
+
+    .info{
+      display: flex;
+      gap: 100px;
+      margin-top: 40px;
+      margin-left: 32px;
+      margin-left: 32px;
+      
+    }
+    .img{
+     
+      width: 100px;
+      height: 100px;
+      border-radius: 500px;
+      margin-left: 32px;
+      margin-top: 48px;
+      
+    }
+    
+    .btn-warning{
+      background-color: #fff4e6;
+      border: none;
+      color: #ffa722;
+    }
+
+    .subtext{
+      font-size: 12px;
+
+    }
+
+    .text{
+      margin-top: -8px;
+      font-size: 16px;
+    }
+
+    .name, .password, .number, .address, .email, .dob, .role, .Status{
+      margin-bottom: 32px;
+    }
+
+    .btn-primary{
+    margin-left: 690px;
+    border-radius: 64px;
+    background-color: #526ED3;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+
+  }
