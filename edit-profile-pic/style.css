@@ -1,0 +1,76 @@
+:root {
+    --text: #101828;
+    --white: #ffffff;
+    --gray:#E4E7EC;
+    --gray-text:#6F8A9E;
+  }
+  @media only screen and (min-width: 768px){
+    
+    body{
+        font-family: "Roboto", sans-serif;
+        
+    }
+
+    .main{
+        background-color: var(--white);
+        height: 364px;
+        width: 500px;
+        border-radius: 16px;
+        margin-left: 300px;
+        margin-top: 50px;
+
+    }
+
+    .main .line{
+        background-color: var(--gray);
+        height: 1px;
+        position: relative;
+        margin-top: -8px;
+        margin-bottom: 18px;
+    }
+
+    .main .line2{
+        background-color: var(--gray);
+        height: 1px;
+       
+        margin-top: 18px; 
+    
+    }
+.top{
+    display: flex;
+    padding-top: 12px;
+    gap:300px;
+    padding-left: 24px;
+}
+    .photo-box{
+        border-style: solid;
+        border-radius: 16px;
+        border-width: 1px;
+        border-color: var(--gray);
+        height: 200px;
+        width: 444px;
+        margin-left: 29px;
+    }
+    .buton{
+        display: flex;
+        gap: 16px;
+     
+        margin-left: 320px;
+        padding-top: 24px;
+        /* padding-bottom: 24px; */
+    }
+
+    .buton .btn-sm{
+        
+        border-radius: 32px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .buton .btn-primary{
+        background-color: #526ED3;;
+    }
+
+}
